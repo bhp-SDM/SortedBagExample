@@ -9,5 +9,5 @@ before_script:
   - dotnet restore
 
 script:
-  - dotnet build
-  - dotnet test
+  - dotnet build --no-restore
+  - dotnet test  --no-build
