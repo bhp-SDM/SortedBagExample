@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedBagExample", "SortedBagExample\SortedBagExample.csproj", "{ABDE1B08-6205-448D-BCCD-7A84EFF97012}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedBagExample", "SortedBagExample\SortedBagExample.csproj", "{ABDE1B08-6205-448D-BCCD-7A84EFF97012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject7", "XUnitTestProject7\XUnitTestProject7.csproj", "{AEF25B36-1511-4BF7-8715-3AE5995375AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestProject7", "XUnitTestProject7\XUnitTestProject7.csproj", "{AEF25B36-1511-4BF7-8715-3AE5995375AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C3297EC2-077A-4CAD-8B9E-F0981DF8914B}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
