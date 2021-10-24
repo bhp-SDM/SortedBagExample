@@ -1,20 +1,13 @@
 sudo: required
 dist: xenial
 
-addons:
-  snaps:
-    - name: dotnet-sdk
-      confinement: classic
-      channel: lts/stable
-
 language: csharp
 mono: none
-solution: SortedBagExample.sln
+dotnet: 5.0.11
 
 before_script:
-  sudo snap alias dotnet-sdk.dotnet dotnet
+  - dotnet restore
 
 script:
-  - dotnet restore
   - dotnet build
   - dotnet test
