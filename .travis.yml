@@ -1,7 +1,11 @@
+sudo: required
 language: csharp
 mono: none
-solution: SortedBagExample.sln
+solution: FinalProjectRegistration.sln
+
+before_script:
+  sudo snap alias dotnet-sdk.dotnet dotnet
 
 script:
   - dotnet build
-  - dotnet test  --no-build
+  - dotnet test
