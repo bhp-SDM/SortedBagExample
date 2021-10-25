@@ -6,8 +6,6 @@ namespace SortedBagExample
 {
     public class SortedBag : ISortedBag
     {
-
-
         /// <summary>
         /// Property containing the items of the SortedBag.
         /// Is empty when created.
