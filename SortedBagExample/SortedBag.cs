@@ -68,7 +68,7 @@ namespace SortedBagExample
         {
             if (Count == 0)
                 throw new InvalidOperationException("SortedBag is empty");
-            return Items.Max();  // O(n)
+            return Items.Min();  // O(n)
         }
 
     }
