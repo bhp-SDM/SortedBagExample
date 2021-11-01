@@ -10,7 +10,7 @@ namespace SortedBagExample
         /// Property containing the items of the SortedBag.
         /// Is empty when created.
         /// </summary>
-        public ICollection<int> Items { get; private set; }
+        public ICollection<int> Items { get; private set }
 
         /// <summary>
         /// Property showing the current number of items in the SortedBag.
